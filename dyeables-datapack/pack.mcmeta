@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "description": {
+      "text": "By Garden(Eden)",
+      "type": "text",
+      "color": "dark_green"
+    },
+    "min_format": 121,
+    "max_format": 121
+  }
+}

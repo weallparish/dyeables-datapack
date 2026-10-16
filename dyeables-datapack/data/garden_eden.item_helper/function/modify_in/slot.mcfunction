@@ -1,0 +1,1 @@
+$execute if items entity @s $(item_slot) $(item_tag) run item modify entity @s $(item_slot) $(item_modifier)

@@ -1,0 +1,9 @@
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.0", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.1", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.2", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.3", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.4", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.5", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.6", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.7", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}
+$function garden_eden.item_helper:modify_in/slot {item_slot: "hotbar.8", item_tag: "$(item_tag)", item_modifier: "$(item_modifier)"}

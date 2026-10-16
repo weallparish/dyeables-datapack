@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "minecraft:music_disc_bounce",
+    "A": ["minecraft:black_concrete_stairs",
+        "minecraft:blue_concrete_stairs",
+        "minecraft:brown_concrete_stairs",
+        "minecraft:cyan_concrete_stairs",
+        "minecraft:gray_concrete_stairs",
+        "minecraft:green_concrete_stairs",
+        "minecraft:light_blue_concrete_stairs",
+        "minecraft:light_gray_concrete_stairs",
+        "minecraft:lime_concrete_stairs",
+        "minecraft:magenta_concrete_stairs",
+        "minecraft:orange_concrete_stairs",
+        "minecraft:pink_concrete_stairs",
+        "minecraft:purple_concrete_stairs",
+        "minecraft:red_concrete_stairs",
+        "minecraft:yellow_concrete_stairs"]
+  },
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:white_concrete_stairs"
+  }
+}

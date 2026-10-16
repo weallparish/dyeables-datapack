@@ -1,0 +1,250 @@
+{
+    "type": "minecraft:sequence",
+    "functions": [{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:red_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:red_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:orange_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:orange_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:yellow_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:yellow_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:lime_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:lime_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:green_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:green_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:cyan_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:cyan_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:light_blue_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:light_blue_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:blue_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:blue_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:purple_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:purple_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:magenta_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:magenta_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:pink_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:pink_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:brown_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:brown_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                    {
+                       "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": ["minecraft:white_dye"]
+                                }
+                            }
+                        }     
+                    }
+                ]
+                
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:white_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:light_gray_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:light_gray_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:gray_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:gray_dye"}
+        },
+{
+            "type": "minecraft:set_components",
+            "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:black_dye"]
+                        }
+                    }
+                }
+            },
+            "components": {"minecraft:block_transformer":"garden_eden.dyeables:black_dye"}
+        }    ]
+    
+}

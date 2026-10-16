@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:snowball",
+    "minecraft:bone_meal",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:music_disc_bounce",
+    "components": {
+      "item_name": "Soap", 
+      "rarity": "common",
+      "!jukebox_playable": {},
+      "tool": {"rules":[], "default_mining_speed": 0.0}, 
+      "block_transformer": "garden_eden.dyeables:soap",
+      "max_stack_size": 64, 
+      "custom_model_data": {"strings":["soap"]}}
+  }
+}

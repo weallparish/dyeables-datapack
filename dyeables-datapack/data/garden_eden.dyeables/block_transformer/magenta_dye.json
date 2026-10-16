@@ -1,0 +1,477 @@
+[
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:wool"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_wool"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_wool"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:wool_stairs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_wool_stairs"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_wool_stairs"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:wool_slabs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_wool_slab"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_wool_slab"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:wool_carpets"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_carpet"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_carpet"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:terracotta"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_terracotta"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_terracotta"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:glazed_terracotta"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_glazed_terracotta"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_glazed_terracotta"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:concrete"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_concrete"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_concrete"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:concrete_stairs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_concrete_stairs"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_concrete_stairs"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:concrete_slabs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_concrete_slab"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_concrete_slab"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:concrete_powders"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_concrete_powder"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_concrete_powder"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:glass_blocks"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_stained_glass"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_stained_glass"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:glass_panes"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_stained_glass_pane"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_stained_glass_pane"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:candles"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_candle"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_candle"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+},
+{
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#minecraft:candle_cakes"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "magenta_candle_cake"
+                }
+              }
+            ]
+            
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "id": "magenta_candle_cake"
+            }
+          }
+        }
+        ]
+    },
+    "item_damage_per_use": 1,
+    "sound": "minecraft:item.dye.use"
+}]
